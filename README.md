@@ -45,6 +45,8 @@ For detailed deployment instructions, see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE
 2. **Docker Deployment**: Use the provided Dockerfile and docker-compose.yml
 3. **PM2 Process Management**: Use the ecosystem.config.js for production deployment
 
+The repository is hosted at: https://github.com/Sajidali001/chat-ncp-proxy-server
+
 ## Usage
 
 ### Registering a New Client (Admin Only)

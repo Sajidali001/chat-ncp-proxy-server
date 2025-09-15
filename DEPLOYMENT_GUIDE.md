@@ -13,7 +13,7 @@ This guide provides step-by-step instructions for deploying the Chat NCP Proxy S
 
 Before deploying, ensure you have:
 - A VPS with Docker installed (you mentioned you have this with Contabo)
-- A GitHub account
+- A GitHub account (username: Sajidali001)
 - SSH access to your VPS
 - Basic knowledge of command line operations
 
@@ -242,7 +242,7 @@ You have two options for deploying the application:
 
 5. Add the remote repository:
    ```bash
-   git remote add origin https://github.com/your-username/chat-ncp-proxy-server.git
+   git remote add origin https://github.com/Sajidali001/chat-ncp-proxy-server.git
    ```
 
 6. Push to GitHub:
@@ -439,7 +439,7 @@ If you've set up GitHub Actions or the cron job script, updates will happen auto
 You now have a fully deployed Chat NCP Proxy Server with automatic update capabilities. The setup includes:
 
 - Secure deployment on your VPS
-- GitHub hosting for version control
+- GitHub hosting for version control at https://github.com/Sajidali001/chat-ncp-proxy-server
 - Automatic updates through GitHub Actions or cron jobs
 - Production-ready configuration with PM2 process management
 - SSL encryption with Let's Encrypt
