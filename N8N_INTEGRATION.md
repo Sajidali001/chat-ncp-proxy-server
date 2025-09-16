@@ -101,12 +101,16 @@ curl -X DELETE "http://192.168.1.249:7000/admin/client/n8n-client-key-123?adminK
 
 ## Troubleshooting n8n Connection Issues
 
+If you're experiencing connection issues with n8n, see the detailed troubleshooting guide: [N8N_TROUBLESHOOTING.md](N8N_TROUBLESHOOTING.md)
+
 ### 1. Firewall Settings
 Make sure Windows Firewall allows connections on port 7000:
 - Open Windows Defender Firewall
 - Click "Advanced settings"
 - Create a new "Inbound Rule" for port 7000
 - Allow the connection
+
+You can also run the `enable-firewall.bat` script as Administrator to automatically create the firewall rule.
 
 ### 2. Network Binding
 By default, the server listens on all interfaces (0.0.0.0), which should work for your local network.
@@ -198,5 +202,4 @@ To monitor requests from n8n:
 If you encounter issues:
 1. Verify the proxy server is running
 2. Check network connectivity to 192.168.1.249:7000
-3. Confirm API key is valid
-4. Review firewall settings
+3. Refer to [N8N_TROUBLESHOOTING.md](N8N_TROUBLESHOOTING.md) for detailed troubleshooting steps

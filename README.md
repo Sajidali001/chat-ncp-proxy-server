@@ -100,6 +100,10 @@ The proxy server automatically supports all models available through the upstrea
 
 The proxy server automatically supports all upstream API endpoints. When new endpoints are added, they will be immediately available through this proxy without any code changes.
 
+## Troubleshooting
+
+If you're experiencing connection issues with n8n, see [N8N_TROUBLESHOOTING.md](N8N_TROUBLESHOOTING.md) for detailed troubleshooting steps.
+
 ## Endpoints
 
 - `POST /admin/register-client` - Register a new client (admin only)
@@ -119,4 +123,5 @@ The proxy server automatically supports all upstream API endpoints. When new end
 - [DOCUMENTATION.md](DOCUMENTATION.md) - Comprehensive guide
 - [CLIENT_INTEGRATION.md](CLIENT_INTEGRATION.md) - Client integration guide
 - [N8N_INTEGRATION.md](N8N_INTEGRATION.md) - n8n integration guide
+- [N8N_TROUBLESHOOTING.md](N8N_TROUBLESHOOTING.md) - Troubleshooting n8n connection issues
 - [CLIENT_ONBOARDING.md](CLIENT_ONBOARDING.md) - Client onboarding workflow
